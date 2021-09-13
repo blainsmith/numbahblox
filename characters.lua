@@ -324,7 +324,35 @@ characters = {
             {colors.orange, colors.orange, colors.orange},
         },
     }, 
-    nil, nil, -- 28 - 29
+    {
+        {
+            {colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.empty, colors.pink},
+            {colors.pink, colors.pink, colors.pink},
+            {colors.orange, colors.empty, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.empty, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.empty, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.empty, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+        },
+    },
+    {
+        {
+            {colors.orange, colors.orange, colors.empty},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+            {colors.orange, colors.orange, colors.grey},
+        },
+    },
     {
         {
             {colors.yellow, colors.yellow, colors.yellow},

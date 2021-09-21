@@ -203,11 +203,23 @@ characters = {
         {colors.white, colors.white},},
     },
     {
-        {{colors.empty, colors.empty, colors.empty, colors.empty, colors.blue},
-        {colors.empty, colors.empty, colors.empty, colors.white, colors.blue},
-        {colors.empty, colors.empty, colors.white, colors.white, colors.blue},
-        {colors.empty, colors.white, colors.white, colors.white, colors.blue},
-        {colors.white, colors.white, colors.white, colors.white, colors.blue},},
+        {
+            {colors.empty, colors.empty, colors.empty, colors.empty, colors.blue},
+            {colors.empty, colors.empty, colors.empty, colors.white, colors.blue},
+            {colors.empty, colors.empty, colors.white, colors.white, colors.blue},
+            {colors.empty, colors.white, colors.white, colors.white, colors.blue},
+            {colors.white, colors.white, colors.white, colors.white, colors.blue},
+        },
+        {
+            {colors.empty, colors.blue},
+            {colors.blue, colors.blue},
+            {colors.blue, colors.blue},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+        },
     },
     {
         {{colors.white, colors.white, colors.white, colors.white},
@@ -225,12 +237,34 @@ characters = {
         {colors.empty, colors.white, colors.white, colors.empty},},
     },
     {
-        {{colors.white, colors.white, colors.pink},
-        {colors.white, colors.white, colors.pink},
-        {colors.white, colors.white, colors.pink},
-        {colors.white, colors.white, colors.pink},
-        {colors.white, colors.white, colors.pink},
-        {colors.pink, colors.pink, colors.pink},},
+        {
+            {colors.white, colors.white, colors.pink},
+            {colors.white, colors.white, colors.pink},
+            {colors.white, colors.white, colors.pink},
+            {colors.white, colors.white, colors.pink},
+            {colors.white, colors.white, colors.pink},
+            {colors.pink, colors.pink, colors.pink},
+        },
+        {
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.white, colors.white, colors.white, colors.white, colors.white, colors.pink},
+            {colors.white, colors.white, colors.white, colors.white, colors.white, colors.pink},
+        },
+        {
+            {colors.pink, colors.pink},
+            {colors.pink, colors.pink},
+            {colors.pink, colors.pink},
+            {colors.pink, colors.pink},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+            {colors.white, colors.white},
+        },
+        {
+            {colors.white, colors.white, colors.white, colors.white, colors.white, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.white, colors.white, colors.white, colors.white, colors.white, colors.pink, colors.pink, colors.pink, colors.pink},
+        },
     },
     {
         {{colors.white, colors.empty},
@@ -245,25 +279,40 @@ characters = {
         {colors.white, colors.grey},},
     },
     {
-        {{colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},
-        {colors.orange, colors.orange},},
+        {
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+            {colors.orange, colors.orange},
+        },
+        {
+            {colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange},
+        },
     },
     {
-        {{colors.orange, colors.orange, colors.orange},
-        {colors.orange, colors.orange, colors.orange},
-        {colors.orange, colors.orange, colors.orange},
-        {colors.orange, colors.red,    colors.orange},
-        {colors.orange, colors.orange, colors.orange},
-        {colors.orange, colors.orange, colors.orange},
-        {colors.orange, colors.orange, colors.orange},},
+        {
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.red,    colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.orange, colors.orange},
+        },
+        {
+            {colors.empty, colors.empty, colors.empty, colors.empty, colors.red},
+            {colors.empty, colors.empty, colors.empty, colors.orange, colors.orange},
+            {colors.empty, colors.empty, colors.orange, colors.orange, colors.orange},
+            {colors.empty, colors.orange, colors.orange, colors.orange, colors.orange},
+            {colors.orange, colors.orange, colors.orange, colors.orange, colors.orange},
+        },
     },
     {
         {{colors.empty, colors.orange, colors.orange, colors.empty},
@@ -338,6 +387,15 @@ characters = {
             {colors.orange, colors.empty, colors.orange},
             {colors.orange, colors.orange, colors.orange},
         },
+        {
+            {colors.empty, colors.empty, colors.empty, colors.empty, colors.empty, colors.empty, colors.pink},
+            {colors.empty, colors.empty, colors.empty, colors.empty, colors.empty, colors.orange, colors.pink},
+            {colors.empty, colors.empty, colors.empty, colors.empty, colors.orange, colors.orange, colors.pink},
+            {colors.empty, colors.empty, colors.empty, colors.orange, colors.orange, colors.orange, colors.pink},
+            {colors.empty, colors.empty, colors.orange, colors.orange, colors.orange, colors.orange, colors.pink},
+            {colors.empty, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.pink},
+            {colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.orange, colors.pink},
+        },
     },
     {
         {
@@ -393,7 +451,18 @@ characters = {
             {colors.green, colors.green, colors.green, colors.green},
         }
     },
-    nil, nil, nil, nil, nil, nil, nil, nil, nil, -- 41 - 49
+    nil, nil, nil, nil, nil, nil, nil, nil, -- 41 - 48
+    {
+        {
+            {colors.green, colors.green, colors.green, colors.green, colors.green, colors.green, colors.green},
+            {colors.green, colors.green, colors.green, colors.green, colors.green, colors.green, colors.green},
+            {colors.green, colors.green, colors.grey, colors.grey, colors.grey, colors.green, colors.green},
+            {colors.green, colors.green, colors.grey, colors.grey, colors.grey, colors.green, colors.green},
+            {colors.green, colors.green, colors.grey, colors.grey, colors.grey, colors.green, colors.green},
+            {colors.green, colors.green, colors.green, colors.green, colors.green, colors.green, colors.green},
+            {colors.green, colors.green, colors.green, colors.green, colors.green, colors.green, colors.green},
+        },
+    },
     {
         {
             {colors.blue, colors.blue, colors.blue, colors.blue, colors.blue},
@@ -423,7 +492,20 @@ characters = {
             {colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple},
         }
     },
-    nil, nil, nil, nil, nil, nil, nil, nil, nil, -- 61 - 69
+    nil, nil, nil, -- 16 - 63
+    {
+        {
+            {colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple},
+            {colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple},
+            {colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple},
+            {colors.purple, colors.purple, colors.purple, colors.green, colors.green, colors.purple, colors.purple, colors.purple},
+            {colors.purple, colors.purple, colors.purple, colors.green, colors.green, colors.purple, colors.purple, colors.purple},
+            {colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple},
+            {colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple},
+            {colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple, colors.purple},
+        },
+    },
+    nil, nil, nil, nil, nil, -- 65 - 69
     {
         {
             {colors.red, colors.orange, colors.yellow, colors.green, colors.blue, colors.purple, colors.dark_blue},
@@ -451,9 +533,33 @@ characters = {
             {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
             {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
             {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+        },
+        {
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.empty, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
         }
     },
-    nil, nil, nil, nil, nil, nil, nil, nil, nil, -- 81 - 89
+    {
+        {
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.red, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+            {colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink, colors.pink},
+        },
+    }, 
+    nil, nil, nil, nil, nil, nil, nil, nil, -- 82 - 89
     {
         {
             {colors.grey, colors.grey, colors.grey, colors.grey, colors.grey, colors.grey, colors.grey, colors.grey, colors.grey},
